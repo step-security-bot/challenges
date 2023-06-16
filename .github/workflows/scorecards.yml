@@ -5,9 +5,9 @@ on:
   branch_protection_rule:
   schedule:
     - cron: '20 11 * * 5'
-  push:
-    branches:
-      - "main"
+  # push:
+  #   branches:
+  #     - "main"
 
 # Declare default permissions as read only.
 permissions: read-all
